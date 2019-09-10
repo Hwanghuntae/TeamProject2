@@ -15,4 +15,9 @@ public class Circle implements Shape
         this.y = y;		
         this.radius = radius;		
     }
+    
+    public boolean equals(Object obj)
+    {
+        
+    }
 }
