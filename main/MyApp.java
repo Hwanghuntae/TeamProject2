@@ -7,7 +7,7 @@ import base.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class myapp
+public class MyApp
 {
     public static void main(String[] args){
         Circle c1 = new Circle (2,3,5);
