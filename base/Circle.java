@@ -1,11 +1,12 @@
-    package base;
+package base;
+import MyInterface.Shape;
 /**
  * 여기에 Circle 클래스 설명을 작성하십시오.
  * 
  * @author (황훈태 2018315009) 
  * @version (2019-09-10)
  */
-public class Circle
+public class Circle implements Shape
 {
 
     private int x, y, radius;       //int형 데이터타입의 x, y, radius 변수 선언
@@ -25,5 +26,13 @@ public class Circle
             return false;                   //x, y 값이 서로 다르면 false를 반환한다.
         }
     }   
+    
+    public void draw(){
+        System.out.println("반지름이 " + this.radius + "인 원입니다.");
+    }
+    
+    public double getArea(){
+        return PI * this.radius * this.radius;
+    }
 
 }
