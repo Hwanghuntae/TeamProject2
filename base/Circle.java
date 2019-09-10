@@ -27,11 +27,11 @@ public class Circle implements Shape
         }
     }   
     
-    public void draw(){
+    public void draw(){          //Shape 인터페이스의 추상메소드 오버라이딩
         System.out.println("반지름이 " + this.radius + "인 원입니다.");
     }
     
-    public double getArea(){
+    public double getArea(){     //Shape 인터페이스의 추상메소드 오버라이딩
         return PI * this.radius * this.radius;
     }
 
