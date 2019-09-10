@@ -1,6 +1,4 @@
 package base;
-
-
 /**
  * 여기에 Circle 클래스 설명을 작성하십시오.
  * 
@@ -9,5 +7,19 @@ package base;
  */
 public class Circle
 {
+
+    private int x, y, radius;
+    public Circle(int x, int y, int radius) {
+        this.x = x;
+        this.y = y;		
+        this.radius = radius;		
+    }
     
+    public boolean equals(Object obj)   //c2
+    {     
+        Circle b = (Circle)obj;
+        if(this.x == b.x && this.y == b.y) return true;
+        else return false;
+    }	
+
 }
