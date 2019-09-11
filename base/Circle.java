@@ -4,7 +4,7 @@ import MyInterface.Shape;
  * 여기에 Circle 클래스 설명을 작성하십시오.
  * 
  * @author (2018315039 이윤재 2018315009 황훈태 2018315025 신동준) 
- * @version (20190910)
+ * @version (20190911)
  */
 public class Circle implements Shape
 {

@@ -1,4 +1,4 @@
-package MyInterface;
+package myInterface;
 import base.Circle;
 /**
  *   인터페이스 Shape - 여기에 인터페이스 설명을 작성하십시오.
