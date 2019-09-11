@@ -33,5 +33,4 @@ public class Circle implements Shape
     public double getArea(){     //Shape 인터페이스의 추상메소드 오버라이딩
         return PI * this.radius * this.radius;
     }
-
 }
