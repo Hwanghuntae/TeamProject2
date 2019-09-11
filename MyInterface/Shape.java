@@ -1,4 +1,4 @@
-package myInterface;
+package MyInterface;
 import base.Circle;
 /**
  *   인터페이스 Shape - 여기에 인터페이스 설명을 작성하십시오.
@@ -16,4 +16,4 @@ public interface Shape
         System.out.print("--- 다시 그립니다. ");
         draw();
     }
-}
+} 
